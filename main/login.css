@@ -1,0 +1,506 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(Cloudy.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tradbox {
+    width: 100vw;
+    height: 11vh;
+    background-color: rgba(0, 0, 0, 0.938);
+    position: relative;
+    top: 167px;
+
+}
+
+.accbox {
+    width: 435px;
+    height: 499px;
+    background-color: white;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 110px;
+    left: 160px;
+    border-radius: 15px;
+
+    box-shadow:
+        2.2px 2.2px 6.4px rgba(1, 128, 247, 0.141),
+        4.8px 4.8px 14.2px rgba(37, 46, 175, 0.208),
+        8px 8px 23.8px rgba(0, 0, 0, 0.256),
+        12.1px 12.1px 35.9px rgba(26, 93, 194, 0.297),
+        17.4px 17.4px 51.7px rgba(0, 0, 0, 0.335),
+        24.6px 24.6px 73.2px rgba(20, 108, 190, 0.373),
+        34.9px 34.9px 103.8px rgba(0, 0, 0, 0.414),
+        50.7px 50.7px 150.8px rgba(0, 0, 0, 0.462),
+        78.2px 78.2px 232.3px rgba(3, 128, 201, 0.529),
+        139px 139px 413px rgba(27, 148, 196, 0.67);
+    background-color: #92A8D1;
+
+}
+
+.tradermark {
+    text-align: center;
+    position: relative;
+    top: 35px;
+    font-size: 12px;
+    color: white;
+}
+
+.login {
+    position: relative;
+    top: 21px;
+    left: 160px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+.mb-3 {
+    position: relative;
+    top: 42px;
+    left: 45px;
+
+}
+
+.form-control {
+    width: 70%;
+}
+
+.login1 {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    top: 53px;
+    left: 45px;
+}
+
+.login1:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.login1:active {
+    transform: translateY(-1px);
+}
+
+
+.signin1 {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    top: 53px;
+    left: 70px;
+}
+
+.signin1:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.signin1:active {
+    transform: translateY(-1px);
+}
+
+.linebreak {
+    border-top: 5px solid black;
+    position: relative;
+    top: 70px;
+}
+
+.box2 {
+    width: 410px;
+    height: 499px;
+    background-color: white;
+    /* border: 2px solid black; */
+    position: relative;
+    top: 610px;
+    left: 800px;
+
+    box-shadow:
+        2.2px 2.2px 6.4px rgba(1, 128, 247, 0.141),
+        4.8px 4.8px 14.2px rgba(37, 46, 175, 0.208),
+        8px 8px 23.8px rgba(0, 0, 0, 0.256),
+        12.1px 12.1px 35.9px rgba(26, 93, 194, 0.297),
+        17.4px 17.4px 51.7px rgba(0, 0, 0, 0.335),
+        24.6px 24.6px 73.2px rgba(20, 108, 190, 0.373),
+        34.9px 34.9px 103.8px rgba(0, 0, 0, 0.414),
+        50.7px 50.7px 150.8px rgba(0, 0, 0, 0.462),
+        78.2px 78.2px 232.3px rgba(3, 128, 201, 0.529),
+        139px 139px 413px rgba(27, 148, 196, 0.67);
+    background-color: #92A8D1;
+}
+
+.congoogle {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    top: 134px;
+    left: 293px;
+}
+
+.congoogle:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.congoogle:active {
+    transform: translateY(-1px);
+}
+
+
+
+.confac {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    top: 55px;
+    /* left: 70px; */
+}
+
+.confac:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.confac:active {
+    transform: translateY(-1px);
+}
+
+.conapple {
+    padding: 1.3em 3em;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    top: -15px;
+    left: 163px;
+}
+
+.conapple:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}
+
+.conapple:active {
+    transform: translateY(-1px);
+}
+
+.continue{
+    position: relative;
+    top: -117px;
+    left: 116px;
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+}
+
+.forget{
+    position: relative;
+    top: -265px;
+    left: 258px;
+}
+
+.topbar{
+    width:100vw;
+    height: 70px;
+    background-color: rgba(82, 82, 223, 0.658);
+    position: relative;
+    top: -581px;
+}
+
+.img{
+    width: 176px;
+    height: 40px;
+    background-image: url(PhoneNews.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid black;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+}
+
+.home {
+    border: none;
+    display: block;
+    position: relative;
+    padding: 0.7em 2.4em;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    color: rgb(251, 255, 1);
+    z-index: 1;
+    font-family: inherit;
+    font-weight: 500;
+    position: relative;
+    top: -28px;
+    left: 1376px;
+}
+   
+   
+   .home span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: -1;
+    border: 4px solid royalblue;
+   }
+   
+   .home span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8%;
+    height: 500%;
+    background: var(--lightgray);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-60deg);
+    transition: all 0.3s;
+   }
+   
+   .home:hover span::before {
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 100%;
+    background: royalblue;
+   }
+   
+   .home:hover {
+    color: white;
+   }
+   
+   .home:active span::before {
+    background: #2751cd;
+   }
+
+   
+
+
+   .home1 {
+    border: none;
+    display: block;
+    position: relative;
+    padding: 0.7em 2.4em;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    color: rgb(251, 255, 1);
+    z-index: 1;
+    font-family: inherit;
+    font-weight: 500;
+    position: relative;
+    top: -79px;
+    left: 1243px;
+
+}
+   
+   
+   .home1 span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: -1;
+    border: 4px solid royalblue;
+   }
+   
+   .home1 span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8%;
+    height: 500%;
+    background: var(--lightgray);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-60deg);
+    transition: all 0.3s;
+   }
+   
+   .home1:hover span::before {
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 100%;
+    background: royalblue;
+   }
+   
+   .home1:hover {
+    color: white;
+   }
+   
+   .home1:active span::before {
+    background: #2751cd;
+   }
+
+   
+   
+
+   .home2 {
+    border: none;
+    display: block;
+    position: relative;
+    padding: 0.7em 2.4em;
+    font-size: 18px;
+    background: transparent;
+    cursor: pointer;
+    user-select: none;
+    overflow: hidden;
+    color: rgb(251, 255, 1);
+    z-index: 1;
+    font-family: inherit;
+    font-weight: 500;
+    position: relative;
+    top: -132px;
+    left: 1138px;
+
+}
+   
+   
+   .home2 span {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    z-index: -1;
+    border: 4px solid royalblue;
+   }
+   
+   .home2 span::before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 8%;
+    height: 500%;
+    background: var(--lightgray);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-60deg);
+    transition: all 0.3s;
+   }
+   
+   .home2:hover span::before {
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 100%;
+    background: royalblue;
+   }
+   
+   .home2:hover {
+    color: white;
+   }
+   
+   .home2:active span::before {
+    background: #2751cd;
+   }
+
+   .gg-eye {
+    position: relative;
+    top: -51px;
+    left: 58px;
+    display: block;
+    transform: scale(var(--ggs,1));
+    width: 24px;
+    height: 18px;
+    border-bottom-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    overflow: hidden;
+    box-sizing: border-box
+}
+.gg-eye::after,
+.gg-eye::before {
+    content: "";
+    display: block;
+    border-radius: 100px;
+    position: absolute;
+    box-sizing: border-box
+}
+.gg-eye::after {
+    top: 2px;
+    box-shadow:
+        inset 0 -8px 0 2px,
+        inset 0 0 0 2px;
+    width: 24px;
+    height: 24px
+}
+.gg-eye::before {
+    width: 8px;
+    height: 8px;
+    border: 2px solid;
+    bottom: 4px;
+    left: 8px
+}
